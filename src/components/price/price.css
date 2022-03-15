@@ -1,0 +1,56 @@
+.prices {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 5px;
+}
+
+.prices .price {
+    background: #000;
+    height: 6rem;
+    width: 35rem;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    border-top: 15px solid #2fd7bf;
+}
+
+.prices h4 {
+    color: #2fd7bf;
+}
+
+.prices p {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .prices {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 10px auto;
+        width: 90%;
+    }
+    
+}
+
+
+/* ========= MEDIA QUERRIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+    .prices{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .prices .price {
+        width: 20rem;
+    }
+}

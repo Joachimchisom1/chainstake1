@@ -1,0 +1,21 @@
+
+[class ^= "invest-"] {
+    display: grid;
+    place-items: center;
+    background: #000;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    color: #fff;
+} 
+
+
+.invests {
+    height: 90vh;
+    width: 73%;
+    margin: 10px auto;
+/* GRID CONTANER */
+    display: grid;
+    gap: 10px;
+}
+

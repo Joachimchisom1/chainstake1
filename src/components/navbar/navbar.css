@@ -1,0 +1,173 @@
+nav {
+  height: 140px;
+  width: 90%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 20px auto;
+  border-radius: 40px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px;
+}
+
+.logo {
+  width: 18%;
+  height: 50%;
+  border: 2px solid #fff;
+  border-radius: 0.4rem;
+}
+
+.bnb-image .wallet {
+  margin-bottom: 0.3rem;
+  padding: 1rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font: bold;
+}
+
+.bnb-image img {
+  width: 40px;
+  margin-bottom: -10px;
+}
+
+.bnb-image span {
+  margin-top: 10%;
+  display: inline-block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  color: #fff;
+  /* margin-left: 5%; */
+}
+
+nav a:hover {
+  text-shadow: 0.1rem 0.1rem #2fd7bf;
+  /* color: #2fd7bf; */
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font: bold;
+}
+
+.wallet {
+  padding: 0;
+  margin: 0;
+}
+
+.wallet button {
+  background: #2fd7bf;
+  color: #000;
+  height: 4rem;
+  width: 12rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  font-size: 22px;
+  font-weight: 500;
+  font: bold;
+}
+
+.wallet button:hover {
+  background: #000;
+  color: #2fd7bf;
+  border: 3px solid #2fd7bf;
+}
+
+/* .icon {
+    display: none;
+} */
+
+/* ========= MEDIA QUERRIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  nav {
+    width: 85%;
+    height: 90px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 5%;
+  }
+
+  .wallet button {
+    background: #2fd7bf;
+    color: #000;
+    height: 4rem;
+    width: 10rem;
+  }
+
+  .icon {
+      display: none;
+  }
+
+ 
+}
+
+/* ========= MEDIA QUERRIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+    height: 5rem;
+    margin: 0;
+  }
+
+
+  .wallet button {
+    display: none;
+  }
+
+  nav ul {
+      display: none;
+  }
+
+  .bnb-image img {
+      width: 2rem;
+  }
+
+  .logo {
+      border: none;
+      width: 9rem;
+  }
+
+  .bnb-image img {
+    width: 30px;
+    margin-bottom: -55%;
+    margin-left: 25%;
+  }
+  
+  .bnb-image span {
+    margin-top: 30%;
+    display: inline-block;
+    margin-left: 55%;
+  }
+
+
+  .icon {
+      display: flex;
+      border: 2px solid #2fd7bf;
+      width: 15%;
+      height: 20%;
+      border-radius: 8px;
+      color: #2fd7bf;
+      text-align: center;
+      padding: 5px;
+      margin-left: 20px;
+  }
+}
