@@ -60,7 +60,7 @@ const Navbar = () => {
               aria-labelledby="contained-modal-title-vcenter"
               centered
               show={show}
-              onHide={modalClose}
+              onHide={modalClose} 
             >
               <Modal.Body>All Wallets IDs</Modal.Body>
             </Modal>
