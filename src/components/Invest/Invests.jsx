@@ -10,9 +10,6 @@ import { BiMessageAltDetail } from 'react-icons/bi'
 import { useState } from 'react'
 
 const Invests = () => {
-  const { open, dropDown } = useState(false)
-  const dropdown = () => dropDown(true)
-  const dropdownClose = () => dropDown(false)
   return (
     <div className="invests">
       <div className="invest-1">
