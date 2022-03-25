@@ -9,21 +9,6 @@ import { Modal } from 'react-bootstrap'
 import { useState } from 'react'
 
 const Navbar = () => {
-  // function for Modal
-  const [show, popup] = useState(false)
-
-  const modalOpen = () => popup(true)
-  const modalClose = () => popup(false)
-
-  // const providerOptions = {
-
-  // }
-
-  // const Web3Modal = new Web3Modal({
-  //   network: "mainnet",
-  //   cacheProvider: true,
-  //   providerOptions
-  // })
   const { account, activateBrowserWallet } = useEthers()
   // figure out if we are connected or not
   // if not connect, shows a 'connect wallet' button
@@ -55,15 +40,6 @@ const Navbar = () => {
               :
               <button onClick={() => activateBrowserWallet()}>Connect Wallet</button>
             }
-            <Modal
-              size="lg"
-              aria-labelledby="contained-modal-title-vcenter"
-              centered
-              show={show}
-              onHide={modalClose} 
-            >
-              <Modal.Body>All Wallets IDs</Modal.Body>
-            </Modal>
           </div>
         </div>
         <IoIosMenu className="icon" />
