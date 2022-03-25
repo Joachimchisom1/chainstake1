@@ -39,10 +39,10 @@
 .container .btn {
     margin: 20px;
     background: #2fd7bf;
-    width: 15%;
+    width: 20%;
     height: 50px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 23px;
     border-radius: 50px;
     cursor: pointer;
@@ -70,6 +70,12 @@
     margin: 35px auto;
     cursor: pointer;
 }
+
+.btc__image button:hover {
+    background: #000;
+    border: 2px solid #2fd7bf;
+    color: #fff;
+ }
 
 .icon {
     display: none;

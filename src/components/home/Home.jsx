@@ -10,7 +10,9 @@ import SHIB from '../../asset/img/SHIB.png'
 import SLP from '../../asset/img/SLP.png'
 import AXS from '../../asset/img/AXS.png'
 
+
 const Home = () => {
+  
   return (
     <div className="container">
       <h3>

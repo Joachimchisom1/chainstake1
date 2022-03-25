@@ -1,0 +1,81 @@
+.invest-3 {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.invest-3 h5 {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.invest-3 p {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+.invest-3 .total_earning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.invest-3 span {
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.invest-3 .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.invest-3 input {
+    font-size: 14px;
+    color: #000;
+    height: 5vh;
+    border-radius: 10px;
+    
+}
+
+.invest-3 button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    background: #2fd7bf;
+    height: 5vh;
+    border-radius: 10px; 
+}
+
+.invest-3 button:hover {
+    color: #2fd7bf;
+    background: #000; 
+    border: 2px solid #2fd7bf;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 85px;
+}
+
+.info span {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 18px;
+    /* margin-top: 50px; */
+}
+
+

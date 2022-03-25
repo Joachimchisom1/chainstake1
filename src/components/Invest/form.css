@@ -1,0 +1,80 @@
+.invest-2 {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 210px;
+}
+
+.font-size {
+    font-size: 14px;
+}
+
+.invest-2  p {
+    margin-bottom:0;
+}
+.invest-2  .amm h5 {
+    margin-bottom: -2px;
+}
+
+.invest-2  .amm3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.invest-2  button {
+  background: #2fd7bf;
+  font-weight: 500;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+.invest-2  button:hover {
+    background: #000;
+    color: #2fd7bf;
+    border: 2px solid #2fd7bf;
+    font-weight: 500;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 10px;
+  }
+
+  .invest-2  .amm2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+ }
+
+ .invest-2 .total_arvested {
+     padding-left: 40%;
+ }
+
+ 
+.invest-2  .amm1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .invest-2  .button {
+   background: #000;
+   color: #2fd7bf;
+   border: 2px solid #2fd7bf;
+   font-weight: 500;
+   width: 7rem;
+   height: 2rem;
+   border-radius: 10px;
+ }
+
+ .invest-2  .button:hover {
+    background: #2fd7bf;
+    color: #000;
+    font-weight: 500;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+  }

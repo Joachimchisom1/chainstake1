@@ -10,11 +10,12 @@
 .prices .price {
     background: #000;
     height: 6rem;
-    width: 35rem;
+    width: 43rem;
     display: inline-block;
     text-align: center;
     padding: 5px;
     font-size: 18px;
+    border-radius: 20px;
     border-top: 15px solid #2fd7bf;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .prices p {
-    padding: 20px;
+    padding: 3px;
 }
 
 @media screen and (max-width: 1024px) {

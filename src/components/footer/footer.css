@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+.footer img {
+    height: 40px;
+    /* margin-bottom: 80px; */
+    padding: 8px;
+    margin: 7px;
+    box-shadow: 2px  #2fd7bf;
+}
+
+.footer .img {
+    background: rgb(46, 44, 44);
+    border-radius: 10px;
+    margin-bottom: 80px;
+    box-shadow: 2px 18px 20px 0 #2fd7bf;   
+}
+
+.footer .img:hover {
+    box-shadow: none;   
+}
